@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兼职群二维码</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .qrcode-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .qrcode-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .notice {
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 480px) {
+            .qrcode-card {
+                width: 95%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 群二维码 -->
+        <div class="qrcode-card">
+            <h2>线上高质量兼职群</h2>
+            <img src="2f5e94cc6e363a1911ebb84b1c9fbfdd.jpg" alt="群聊二维码">
+            <p class="notice">该二维码7天内有效（5月13日前）</p>
+        </div>
+
+        <!-- 个人二维码 -->
+        <div class="qrcode-card">
+            <h2>队长联系方式</h2>
+            <img src="73a17b3e6129de3f662d3c827856937e.jpg" alt="个人微信二维码">
+            <p class="notice">扫一扫添加好友</p>
+        </div>
+    </div>
+</body>
+</html>
